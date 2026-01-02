@@ -7,7 +7,7 @@ import java.net.URL;
 import java.nio.file.Paths;
 
 public class AppUpdater {
-    public  void config() {
+    public static void config() {
         try {
             // 1. Server එකේ ඇති Update Configuration එක කියවීම (මෙය ඔබගේ වෙබ් අඩවියක තිබිය යුතුයි)
             URL configUrl = new URL("https://raw.githubusercontent.com/Hasithlakmal/UpdateCheck/refs/heads/main/");

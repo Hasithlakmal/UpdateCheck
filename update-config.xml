@@ -1,0 +1,5 @@
+<configuration base="https://github.com/Hasithlakmal/UpdateCheck.git">
+    <files>
+        <file path="MainApp.jar" size="9,287.68" />
+    </files>
+</configuration>

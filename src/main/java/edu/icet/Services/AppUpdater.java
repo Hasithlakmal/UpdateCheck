@@ -7,10 +7,10 @@ import java.net.URL;
 import java.nio.file.Paths;
 
 public class AppUpdater {
-    public static void main(String[] args) {
+    public  void config() {
         try {
             // 1. Server එකේ ඇති Update Configuration එක කියවීම (මෙය ඔබගේ වෙබ් අඩවියක තිබිය යුතුයි)
-            URL configUrl = new URL("your-website.com");
+            URL configUrl = new URL("https://raw.githubusercontent.com/Hasithlakmal/UpdateCheck/refs/heads/main/");
 
             Configuration config;
             try (InputStreamReader reader = new InputStreamReader(configUrl.openStream())) {

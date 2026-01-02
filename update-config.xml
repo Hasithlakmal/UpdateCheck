@@ -1,8 +1,11 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
 <configuration base="https://raw.githubusercontent.com/Hasithlakmal/UpdateCheck/refs/heads/main/update-config.xml">
     <files>
         <file path="MainApp.jar" size="5262"  checksum="7488fa0bd4f8bda75069d029c1db87a3c0cb44128a8329babc445ab8095ae270" />
     </files>
 </configuration>
+
 
 
 

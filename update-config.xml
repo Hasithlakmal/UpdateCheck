@@ -1,6 +1,7 @@
 <configuration base="https://raw.githubusercontent.com/Hasithlakmal/UpdateCheck/refs/heads/main/">
     <files>
-        <file path="MainApp.jar" size="9,287.68" />
+        <file path="MainApp.jar" size="9,517,995" />
     </files>
 </configuration>
+
 

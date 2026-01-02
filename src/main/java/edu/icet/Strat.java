@@ -1,5 +1,6 @@
 package edu.icet;
 
+import edu.icet.Services.AppUpdater;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -9,6 +10,7 @@ public class Strat extends Application {
 
     public static void main (String [] args){
 
+        AppUpdater.config();
         launch();
 
     }
